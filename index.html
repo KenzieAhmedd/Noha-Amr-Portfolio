@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noha Amr Abdelbaset | .NET Backend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Animated background -->
+    <div id="orbs"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="logo">Noha<span class="accent">A</span></div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="modeToggle" aria-label="Toggle theme">🌙</button>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="section hero">
+      <div class="container">
+        <h1 class="neon">Noha Amr Abdelbaset</h1>
+        <h3 class="subtitle">Junior .NET Backend Developer</h3>
+        <p class="lead">
+          Passionate about building high-performance backend systems using C#,
+          ASP.NET Core, and Clean Architecture.
+        </p>
+        <div class="btn-row">
+          <a href="#about" class="btn primary">About Me</a>
+          <a href="#contact" class="btn ghost">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="neon">About Me</h2>
+        <p>
+          I am a backend developer skilled in designing scalable systems and
+          APIs, applying modern architecture principles like CQRS, DDD, and
+          microservices with ASP.NET Core.
+        </p>
+
+        <div class="grid">
+          <div class="card reveal">
+            <h3>Experience</h3>
+            <ul>
+              <li>
+                <strong>.NET Intern, OPUS365:</strong> Developed HR system
+                features, optimized SQL queries, implemented JWT Authentication.
+              </li>
+              <li>
+                <strong>Bootcamp, Upskilling IT Center:</strong> CQRS, MediatR,
+                RabbitMQ, Hangfire, CI/CD pipelines.
+              </li>
+              <li>
+                <strong>Backend Diploma, Route IT Center:</strong> EF Core, REST
+                APIs, and design patterns.
+              </li>
+            </ul>
+          </div>
+
+          <div class="card reveal">
+            <h3>Key Projects</h3>
+            <ul>
+              <li>
+                <b>Hotel Management System:</b> Clean Architecture, JWT Auth,
+                Transaction Middleware.
+              </li>
+              <li>
+                <b>Restaurant Management System:</b> CQRS, MediatR, role-based
+                authorization.
+              </li>
+              <li>
+                <b>Blog Management System:</b> ASP.NET Core 9.0, CAP, Hangfire,
+                Serilog.
+              </li>
+            </ul>
+          </div>
+
+          <div class="card reveal">
+            <h3>Technical Skills</h3>
+            <div class="tags">
+              <span>C#</span><span>ASP.NET Core</span><span>EF Core</span>
+              <span>SQL Server</span><span>PostgreSQL</span
+              ><span>RabbitMQ</span> <span>Docker</span><span>DDD</span
+              ><span>CQRS</span><span>Git</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="neon">Contact Me</h2>
+        <p>
+          Let’s collaborate — I’m open to backend developer roles and freelance
+          projects.
+        </p>
+        <form id="contactForm" class="reveal">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <textarea
+            id="message"
+            placeholder="Your Message"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+          <p id="feedback"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Noha Amr Abdelbaset | Built with 💙 and Code</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
